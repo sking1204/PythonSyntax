@@ -12,5 +12,25 @@
 #         return a/b
 #     return 'a and b must be integers'
 
-def three_things(a,b,c):
-    print('Hi')
+# def three_things(a,b,c):
+#     print('Hi')
+
+
+# def send_email(to_email,from_email,subject,body):
+#     email =f"""
+#         to: {to_email}
+#         from: {from_email}
+#         subject: {subject}     
+#         ___________________
+
+#         body: {body} 
+#         """
+#     print(email)
+
+
+# send_email(subject="MEOW",to_email="Annie@cat.com",
+#            from_email='Naz@hello.com,',
+#            body="Hi Annie, you are my cat. I love you!")
+
+def power(num,power=2):
+    return num **power
