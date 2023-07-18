@@ -11,3 +11,15 @@ def remove_every_other(lst):
         >>> lst
         [1, 2, 3, 4, 5]
     """
+#use slicing
+    return lst[::2]  
+
+#printing to make sure orig list is not changed
+lst =[1,2,3,4,5]
+print(lst)
+
+
+
+
+
+

@@ -12,4 +12,28 @@ def find_factors(num):
 
     >>> find_factors(321421)
     [1, 293, 1097, 321421]
-    """
+    """ 
+    factor_list = [n for n in range (1, num) if num % n == 0] 
+    factor_list.append(num) 
+    return factor_list
+
+#sprinboard solutions:
+
+# ## Ask mentor about '//' - floor division
+
+#     n_list = [n for n in range (1, num // 2 + 1) if num % n == 0]
+
+#     n_list.append(num)
+
+#     return n_list
+
+
+## ask Mentor about this solution. What determines where n starts?
+    # factors =[]
+    
+    # while n <= num:
+    #     if num % n ==0:
+    #         factors.append(n)
+    #         n += 1
+
+    # return factors
