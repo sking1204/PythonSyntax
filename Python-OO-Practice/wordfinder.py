@@ -1,9 +1,29 @@
-"""Word Finder: finds random words from a dictionary."""
+"""Word Finder: finds random words from a dictionary.
+    >>> wf = WordFinder("words.txt")
+    3 words read
+
+    >>> wf.random() in ["cat", "dog", "porcupine"]
+    True
+
+    >>> wf.random() in ["cat", "dog", "porcupine"]
+    True
+
+    >>> wf.random() in ["cat", "dog", "porcupine"]
+    True
+
+
+
+
+"""
 
 import random
 
 class WordFinder:
-    """Finding random words from text dictionary"""
+    """Finding random words from text dictionary
+
+    ##How would I go about testing this? 
+    ## Need to find a way to save the word list to a variable?
+    """
 
     def __init__(self,path):
         """Reads dictionary and reports # of items read"""
